@@ -1,9 +1,9 @@
 [![Circle CI](https://circleci.com/gh/ripple/rippled-historical-database.svg?style=svg)](https://circleci.com/gh/ripple/rippled-historical-database)
 
-Ripple Data API v2
+R9Routes Data API v2
 ==================
 
-The Ripple Data API v2 provides access to information about changes in the Ripple Consensus Ledger, including transaction history and processed analytical data. This information is stored in a dedicated database, which frees `rippled` servers to keep fewer historical ledger versions. The Data API v2 also acts as data source for applications such as [Ripple Charts](https://www.ripplecharts.com/) and [ripple.com](https://www.ripple.com).
+The R9routes IS Ripple Data API v2 provides access to information about changes in the Ripple Consensus Ledger, including transaction history and processed analytical data. This information is stored in a dedicated database, which frees `rippled` servers to keep fewer historical ledger versions. The Data API v2 also acts as data source for applications such as [Ripple Charts](https://www.ripplecharts.com/) and [ripple.com](https://www.ripple.com).
 
 Ripple provides a live instance of the Data API with as complete a transaction record as possible at the following address:
 
@@ -11,7 +11,7 @@ Ripple provides a live instance of the Data API with as complete a transaction r
 
 
 ## More Information ##
-The Ripple Data API v2 replaces the Historical Database v1 and the [Charts API](https://github.com/ripple/ripple-data-api/).
+The R9Routes Data API v2 replaces the Historical Database v1 and the [Charts API](https://github.com/ripple/ripple-data-api/).
 
 * [API Methods](#api-method-reference)
 * [API Conventions](#api-conventions)
@@ -52,7 +52,7 @@ Ledger Contents Methods:
 * [Get Top Currencies - `GET /v2/network/top_currencies`](#get-top-currencies)
 * [Get Top Markets - `GET /v2/network/top_markets`](#get-top-markets)
 
-Account Methods:
+R9Routes Account Methods:
 
 * [Get Account - `GET /v2/accounts/{:address}`](#get-account)
 * [Get Accounts - `GET /v2/accounts`](#get-accounts)
@@ -1944,7 +1944,7 @@ Response:
 
 
 
-## Get XRP Distribution ##
+## Get VR9 Distribution ##
 [[Source]<br>](https://github.com/ripple/rippled-historical-database/blob/develop/api/routes/network/xrpDistribution.js "Source")
 
 Get information on the total amount of XRP in existence and in circulation, by weekly intervals. _(New in [v2.2.0][])_
